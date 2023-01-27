@@ -1,43 +1,59 @@
 import { useState } from 'react'
 import './App.css'
+import logo from '../public/illustration-woman-online-mobile.svg';
+import arrow_icon from '../public/icon-arrow-down.svg';
 
 function App() {
 
   return (
     <main>
       <div className="div__card">
+         <img className="img__logo" src={logo} alt=""></img>
         <h1>FAQ</h1> 
         <div className="div__card_question">
-          How many team members can I invite?
+          <p>How many team members can I invite?</p>
        </div>
+       <button className="btn__accordion"><img src={arrow_icon} alt=""></img></button>
+
        <div className="div__card_answer">
-          You can invite up to 2 additional users on the Free plan. There is no limit on 
+         <p> You can invite up to 2 additional users on the Free plan. There is no limit on 
           team members for the Premium plan.
+          </p>
       </div>
       <div className="div__card_question">
-          What is the maximum file upload size?
+          <p>What is the maximum file upload size?</p>
       </div>
+      <button className="btn__accordion"><img src={arrow_icon} alt=""></img></button>
+
       <div className="div__card_answer">
-          No more than 2GB. All files in your account must fit your allotted storage space.
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
       </div>
       <div className="div__card_question">
-         How do I reset my password?
+         <p>How do I reset my password?</p>
       </div>
+      <button className="btn__accordion"><img src={arrow_icon} alt=""></img></button>
+
       <div className="div__card_answer">
-         Click “Forgot password” from the login page or “Change password” from your profile page.
+         <p>Click “Forgot password” from the login page or “Change password” from your profile page.
          A reset link will be emailed to you.
+         </p>
       </div>
       <div className="div__card_question">
-         Can I cancel my subscription?
+         <p>Can I cancel my subscription?</p>
       </div>
+      <button className="btn__accordion"><img src={arrow_icon} alt=""></img></button>
+
       <div className="div__card_answer">
-         Yes! Send us a message and we’ll process your request no questions asked.
+         <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
       </div>
       <div className="div__card_question">
-         Do you provide additional support?
+         <p>Do you provide additional support?</p>
       </div>
+      <button className="btn__accordion"><img src={arrow_icon} alt=""></img></button>
+
       <div className="div__card_answer">
-         Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        <p> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
       </div>
     </div>
     <footer>
