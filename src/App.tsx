@@ -14,7 +14,6 @@ function App() {
           <p>How many team members can I invite?</p>
        </div>
        <button className="btn__accordion"><img src={arrow_icon} alt=""></img></button>
-
        <div className="div__card_answer">
          <p> You can invite up to 2 additional users on the Free plan. There is no limit on 
           team members for the Premium plan.

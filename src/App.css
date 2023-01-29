@@ -79,7 +79,8 @@ body {
 
 .div__card {
   background-color: white;
-  max-width: 20.5rem;
+  /* max-width: 20.5rem; */
+  min-width: 20.3125rem;
   border-radius: 1rem;
   /* padding-inline: 2rem; */
   padding-inline: 1rem;
@@ -87,21 +88,28 @@ body {
   padding-bottom: 2rem;
   display: grid;
   grid-template-columns: auto auto;
+  box-shadow: 0 1.5rem .5rem hsl(240, 33%, 49%);/*fix color */
 }
 
 .img__logo {
   position: absolute;
-  /* top: -7.5rem; */
-  top: -6.5rem;
+  top: -7.3rem;
+  /* top: -6.5rem; */
   right: 2rem;
   max-width: 80%;
+  filter: drop-shadow( 0 2rem #ececec);
 }
 
 h1 {
   color: var(--text-dark-gray); 
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  /* padding-top: 5rem; */
+  padding-top: 8rem;
+  /* padding-bottom: 2rem; */
+  padding-bottom: 1rem;
   text-align: center;
+  /* padding-left: 2rem; */
+  padding-left: 3rem;
+  font-size: 2rem;
 }
 
 .div__card_question {
@@ -119,10 +127,11 @@ h1 {
   background-color: transparent;
   padding-left: 2rem;
   cursor: pointer;
+  border-bottom: 1px solid var(--dividers-gray-blue);
 }
 
 .div__card_answer {
-  /* display: none; */
+  display: none;
   padding-block: 1rem;
   text-align: left;
 }
