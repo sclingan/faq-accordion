@@ -120,6 +120,11 @@ h1 {
   text-align: left;
 }
 
+.div__card_question:hover {
+  color: var(--primary-soft-red);
+  cursor: pointer;
+}
+
 .btn__accordion {
   grid-column-start: 2;
   grid-column-end: 2;
