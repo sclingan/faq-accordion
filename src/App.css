@@ -135,6 +135,13 @@ h1 {
   border-bottom: 1px solid var(--dividers-gray-blue);
 }
 
+.btn__accordion:focus {
+  transform: rotate(180deg);
+  border-top: 1px solid var(--dividers-gray-blue);
+  border-bottom: none;
+  outline: none;
+}
+
 .div__card_answer {
   display: none;
   padding-block: 1rem;
