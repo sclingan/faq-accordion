@@ -94,7 +94,6 @@ body {
 .img__logo {
   position: absolute;
   top: -7.3rem;
-  /* top: -6.5rem; */
   right: 2rem;
   max-width: 80%;
   filter: drop-shadow( 0 2rem #ececec);
