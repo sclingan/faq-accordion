@@ -8,7 +8,7 @@ function Card() {
         <header>
          <img className="img__logo" src={logo} alt=""></img>
         </header>
-        <section className="div__card">
+        <section>
             {/* <h1>FAQ</h1> */}
             <ul>
                 <li>How many team members can I invite?</li>

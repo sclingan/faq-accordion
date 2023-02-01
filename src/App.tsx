@@ -3,7 +3,7 @@ import './App.css'
 import logo from '../public/illustration-woman-online-mobile.svg';
 import arrow_icon from '../public/icon-arrow-down.svg';
 import './accordion.js';
-import './card.tsx';
+import Card from './card';
 
 function App() {
 
@@ -56,6 +56,7 @@ function App() {
       <div className="div__card_answer">
         <p> Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
       </div> */}
+      <Card />
     </div>
     <footer>
      <div className="attribution">
