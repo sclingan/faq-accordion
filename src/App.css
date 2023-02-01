@@ -79,10 +79,8 @@ body {
 
 .div__card {
   background-color: white;
-  /* max-width: 20.5rem; */
-  min-width: 20.3125rem;
+  /* min-width: 20.3125rem; */
   border-radius: 1rem;
-  /* padding-inline: 2rem; */
   padding-inline: 1rem;
   position: relative;
   padding-bottom: 2rem;
@@ -108,8 +106,18 @@ h1 {
   padding-bottom: 1rem;
   text-align: center;
   /* padding-left: 2rem; */
-  padding-left: 3rem;
   font-size: 2rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  list-style: none;
+  /* max-width: 20.3125rem; */
+}
+
+li {
+  grid-column: 1/1;
 }
 
 .div__card_question {
