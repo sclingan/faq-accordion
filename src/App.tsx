@@ -8,7 +8,7 @@ function App() {
     <main>
       <div className="div__card">
          {/* <img className="img__logo" src={logo} alt=""></img> */}
-        {/* <h1>FAQ</h1>  */}
+        <h1>FAQ</h1> 
         {/* <div className="div__card_question" id='question_1'>
           <p>How many team members can I invite?</p>
        </div>
