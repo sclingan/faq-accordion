@@ -107,15 +107,12 @@ h1 {
   font-size: 2rem;
 }
 
-section {
-  align-items: left;
-}
-
 ul {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr auto;
   list-style: none;
-  /* max-width: 20.3125rem; */
+  text-align: left;
+  max-width: 20.3125rem;
 }
 
 li {
@@ -153,7 +150,7 @@ li {
 }
 
 .div__card_answer {
-  display: none;
+  visibility: hidden;
   padding-block: 1rem;
   text-align: left;
 }
