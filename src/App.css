@@ -80,6 +80,7 @@ body {
 .div__card {
   background-color: white;
   /* min-width: 20.3125rem; */
+  max-width: 20.3125rem;
   border-radius: 1rem;
   padding-inline: 1rem;
   position: relative;
@@ -107,12 +108,12 @@ h1 {
   font-size: 2rem;
 }
 
+
 ul {
   display: grid;
   grid-template-columns: 1fr auto;
   list-style: none;
   text-align: left;
-  max-width: 20.3125rem; 
   padding: 0;
   margin: 0;
 }
