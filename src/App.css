@@ -61,12 +61,11 @@ p, h1, h2, h3, h4, h5, h6 {
    check background img 
    adjust padding-top on body before deploy
    add drop shadow on logo image
-   research to see if all questions should be in a ul
 */
    
 body {
-  /* background-image: url('/public/bg-pattern-mobile.svg'); */
-  /* background-repeat: no-repeat;  */
+  background-image: url('/public/bg-pattern-mobile.svg');
+  background-repeat: no-repeat; 
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   font-family: var(--ff);
   font-size: var(--fs);
@@ -79,32 +78,27 @@ body {
 
 .div__card {
   background-color: white;
-  /* min-width: 20.3125rem; */
-  max-width: 20.3125rem;
+  max-width: 21rem;
   border-radius: 1rem;
   padding-inline: 1rem;
   position: relative;
   padding-bottom: 2rem;
-  box-shadow: 0 1.5rem .5rem hsl(240, 33%, 49%);/*fix color */
+  box-shadow: 0 1.5rem .5rem hsl(240, 33%, 49%);/*fix color*/
 }
 
 .img__logo {
   position: absolute;
-  top: -7.3rem;
-  right: 2rem;
-  /* max-width: 50%; */
-  max-width: 10%;
-  filter: drop-shadow( 0 2rem #ececec);
+  top: -6.7rem;
+  right: 1.7rem;
+  max-width: 80%;
+  filter: drop-shadow(0 2rem var(--dividers-gray-blue));
 }
 
 h1 {
   color: var(--text-dark-gray); 
-  /* padding-top: 5rem; */
   padding-top: 8rem;
-  /* padding-bottom: 2rem; */
   padding-bottom: 1rem;
   text-align: center;
-  /* padding-left: 2rem; */
   font-size: 2rem;
 }
 
@@ -116,6 +110,7 @@ ul {
   text-align: left;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 li {
@@ -153,7 +148,8 @@ li {
 }
 
 .div__card_answer {
-  visibility: hidden;
+  position: absolute;
+  top: -100rem;
   padding-block: 1rem;
   text-align: left;
 }
