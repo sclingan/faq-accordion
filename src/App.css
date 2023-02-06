@@ -154,8 +154,15 @@ li {
   text-align: left;
 }
 
+#show {
+  position: relative;
+  top: 0;
+  border-bottom: 1px solid var(--dividers-gray-blue);
+
+}
+
 footer {
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .attribution { 
