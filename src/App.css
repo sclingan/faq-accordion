@@ -148,16 +148,18 @@ li {
 }
 
 .div__card_answer {
-  position: absolute;
+  /* position: absolute; */
   top: -100rem;
   padding-block: 1rem;
   text-align: left;
+  /* border-bottom: 1px solid var(--dividers-gray-blue); */
+
 }
 
 #show {
   position: relative;
   top: 0;
-  border-bottom: 1px solid var(--dividers-gray-blue);
+  border-top: 1px solid var(--dividers-gray-blue);
 }
 
 footer {
