@@ -121,6 +121,7 @@ li {
   grid-column-start: 1;
   grid-column-end: 1;
   border-bottom: 1px solid var(--dividers-gray-blue);
+  /* border-top: 1px solid var(--dividers-gray-blue); */
   padding-block: 1rem;
   text-align: left;
 }
@@ -148,7 +149,7 @@ li {
 }
 
 .div__card_answer {
-  /* position: absolute; */
+  position: absolute;
   top: -100rem;
   padding-block: 1rem;
   text-align: left;
