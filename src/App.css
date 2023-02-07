@@ -92,6 +92,7 @@ body {
   right: 1.7rem;
   max-width: 80%;
   filter: drop-shadow(0 2rem var(--dividers-gray-blue));
+  z-index: 1;
 }
 
 h1 {
@@ -101,7 +102,6 @@ h1 {
   text-align: center;
   font-size: 2rem;
 }
-
 
 ul {
   display: grid;
