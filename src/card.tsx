@@ -1,6 +1,7 @@
 import logo from '../public/illustration-woman-online-mobile.svg';
 import arrow_icon from '../public/icon-arrow-down.svg';
-
+import '../src/accordion.js';
+import ShowAnswer from '../src/accordion.js';
 
 function Card() {
     return(
@@ -11,11 +12,11 @@ function Card() {
         <section>
             <ul>
                 <li>
-                    <div className='div__card_question'>
+                    <div className='div__card_question' id='question_1'>
                         <p>How many team members can I invite?</p>
                     </div>
                 </li>
-                <button className="btn__accordion" aria-expanded='false'><img src={arrow_icon} alt="" id='icon_1'></img></button>
+                <button className="btn__accordion" aria-expanded='false' onClick={ShowAnswer}><img src={arrow_icon} alt="" id='icon_1'></img></button>
                 <li>
                     <div className='div__card_answer' id="answer_1">
                         <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>

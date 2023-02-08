@@ -1,11 +1,40 @@
 
+// figure out how to adjust header image
 
-let answer_2 = document.getElementById('answer_2');
-// answer_2.classList.remove('div__card_answer');
-// answer_2.classList.add('#show');
-// let question = document.getElementById('question_2');
-// question.style.borderBottom = 'none';
-// answer_2.style.position = 'relative';
-// answer_2.style.top = '0';
-// answer_2.style.borderBottom = '1px solid black';
-// question.style.borderBottom = 'none';
+
+
+// take in number as id
+export default function ShowAnswer() {
+    let question = document.getElementById('question_1');
+    let answer = document.getElementById('answer_1');
+    let chevron = document.getElementById('icon_1');
+
+    // apply changes in question
+    // bold type
+    // move underline
+
+    question.style.fontWeight = '900';
+    question.style.borderBottom = 'none';
+
+
+
+
+    // apply changes in answer
+    // add border underline
+    // adjust padding 
+    answer.style.position = 'relative';
+    answer.style.top = '0';
+    answer.style.paddingTop = '0';
+    answer.style.borderBottom = '1px solid var(--dividers-gray-blue)';
+
+
+
+
+
+    // apply changes to chevron
+    // add padding-left/right
+    // add border underline
+
+    chevron.style.border = 'none';
+}
+
