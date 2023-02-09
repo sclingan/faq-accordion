@@ -5,16 +5,17 @@
 
 // take in number as id
 export default function ShowAnswer() {
-    let question = document.getElementById('question_1');
-    let answer = document.getElementById('answer_1');
-    let chevron = document.getElementById('icon_1');
+    let question = document.getElementById('question_2');
+    let answer = document.getElementById('answer_2');
+    let chevron = document.getElementById('icon_2');
 
     // apply changes in question
     // bold type
     // move underline
 
-    question.style.fontWeight = '900';
+    question.style.fontWeight = '700';
     question.style.borderBottom = 'none';
+    question.style.color = 'var(--text-dark-gray)';
 
 
 

@@ -1,7 +1,7 @@
 import logo from '../public/illustration-woman-online-mobile.svg';
 import arrow_icon from '../public/icon-arrow-down.svg';
 import '../src/accordion.js';
-import ShowAnswer from '../src/accordion.js';
+import ShowAnswer from '../src/accordion';
 
 function Card() {
     return(
@@ -34,7 +34,7 @@ function Card() {
                     </div>
                 </li>
                 <li>
-                    <div className='div__card_question'>
+                    <div className='div__card_question' id='question_3'>
                         <p>How do I reset my password?</p>
                     </div>
                 </li>
@@ -45,7 +45,7 @@ function Card() {
                     </div>
                 </li>
                 <li>
-                    <div className='div__card_question'>
+                    <div className='div__card_question' id='question_4'>
                         <p>Can I cancel my subscription?</p>
                     </div>
                 </li>
@@ -56,7 +56,7 @@ function Card() {
                     </div>
                 </li>
                 <li>
-                    <div className='div__card_question'>
+                    <div className='div__card_question' id='question_5'>
                         <p>Do you provide additional support?</p>
                     </div>
                 </li>

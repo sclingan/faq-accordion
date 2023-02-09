@@ -135,10 +135,8 @@ li {
   grid-column-end: 2;
   border: none;
   background-color: transparent;
-  padding-left: 2rem;
   cursor: pointer;
   border-bottom: 1px solid var(--dividers-gray-blue);
-  /* border-top: 1px solid var(--dividers-gray-blue); */
 }
 
 .btn__accordion:focus {
@@ -153,14 +151,6 @@ li {
   padding-block: 1rem;
   text-align: left;
   font-weight: var(--fw-400);
-  /* border-bottom: 1px solid var(--dividers-gray-blue); */
-
-}
-
-#show {
-  position: relative;
-  top: 0;
-  border-top: 1px solid var(--dividers-gray-blue);
 }
 
 footer {
