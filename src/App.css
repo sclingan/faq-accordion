@@ -117,6 +117,10 @@ li {
   grid-column: 1/1;
 }
 
+section {
+  padding-bottom: 1rem;
+}
+
 .div__card_question {
   grid-column-start: 1;
   grid-column-end: 1;

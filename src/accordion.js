@@ -16,6 +16,8 @@ export default function ShowAnswer() {
     question.style.fontWeight = '700';
     question.style.borderBottom = 'none';
     question.style.color = 'var(--text-dark-gray)';
+    question.style.paddingBlock = '0.5rem';
+    question.style.paddingTop = '1rem';
 
 
 
@@ -27,7 +29,6 @@ export default function ShowAnswer() {
     answer.style.top = '0';
     answer.style.paddingTop = '0';
     answer.style.borderBottom = '1px solid var(--dividers-gray-blue)';
-
 
 
 
