@@ -71,9 +71,11 @@ body {
   font-size: var(--fs);
   font-weight: var(--fw-400);
   color: var(--text-dark-blue-gray);
-  display: grid;
-  place-content: center;
-  padding-top: 6rem;
+  /* display: grid; */
+  /* place-content: center; */
+  padding-top: 10rem;
+  padding-left: 1.2rem;
+  min-height: 100vh;
 }
 
 .div__card {
@@ -88,7 +90,8 @@ body {
 
 .img__logo {
   position: absolute;
-  top: -6.7rem;
+  /* top: -6.7rem; */
+  top: -7.5rem;
   right: 1.7rem;
   max-width: 80%;
   filter: drop-shadow(0 2rem var(--dividers-gray-blue));
